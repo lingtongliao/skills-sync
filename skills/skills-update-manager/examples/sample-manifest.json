@@ -1,0 +1,26 @@
+{
+  "manifest_version": 1,
+  "generated_at": "2026-03-11T00:00:00Z",
+  "plugin": {
+    "name": "skills-update-hub",
+    "version": "0.1.0"
+  },
+  "repo": "owner/repo",
+  "ref": "main",
+  "skills": [
+    {
+      "name": "skills-update-manager",
+      "version": "0.1.0",
+      "skill_root": "skills/skills-update-manager",
+      "description": "Check, diff, and update local skills from a GitHub manifest.",
+      "changelog": "CHANGELOG.md",
+      "files": [
+        {
+          "path": "skills/skills-update-manager/SKILL.md",
+          "sha256": "<sha256>",
+          "size": 1234
+        }
+      ]
+    }
+  ]
+}

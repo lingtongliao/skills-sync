@@ -1,0 +1,46 @@
+{
+  "manifest_version": 1,
+  "generated_at": "2026-03-11T07:55:49Z",
+  "plugin": {
+    "name": "skills-update-hub",
+    "version": "0.1.0"
+  },
+  "repo": "lingtongliao/re-skills",
+  "ref": "main",
+  "skills": [
+    {
+      "name": "skills-update-manager",
+      "version": "0.1.0",
+      "skill_root": "skills/skills-update-manager",
+      "description": "Managed skill: skills-update-manager",
+      "changelog": "CHANGELOG.md",
+      "files": [
+        {
+          "path": "skills/skills-update-manager/examples/sample-manifest.json",
+          "sha256": "e069676e8c27af4014fcd6f1792fb58be22624f554b91229e886b0b5ee2b2969",
+          "size": 613
+        },
+        {
+          "path": "skills/skills-update-manager/references/manifest-spec.md",
+          "sha256": "83b3a56e265578fd3b9175b7594de70e3f0b52eb26b77e8a6c6593317edc1fe7",
+          "size": 1376
+        },
+        {
+          "path": "skills/skills-update-manager/references/release-playbook.md",
+          "sha256": "2d1c492cfbcc4ca522a20f03f1818bbde55f0acff465944e039e8516f0910eb0",
+          "size": 885
+        },
+        {
+          "path": "skills/skills-update-manager/scripts/manage_skills.py",
+          "sha256": "ea0e65d66e51695f0609d295779203c62b7a2343389df1f1264889de8ea6c66d",
+          "size": 19880
+        },
+        {
+          "path": "skills/skills-update-manager/SKILL.md",
+          "sha256": "c1cc083dd4630ddabc898693c3ba669bb7a7afccc5f42d58de1ec5dba1d88bc4",
+          "size": 5374
+        }
+      ]
+    }
+  ]
+}

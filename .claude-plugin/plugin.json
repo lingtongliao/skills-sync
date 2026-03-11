@@ -1,0 +1,18 @@
+{
+  "name": "skills-update-hub",
+  "version": "0.1.0",
+  "description": "Check local Claude skills against GitHub manifest, summarize diffs, and update safely.",
+  "author": {
+    "name": "leo"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "update",
+    "diff",
+    "github",
+    "claude-code"
+  ],
+  "repository": "https://github.com/lingtongliao/re-skills",
+  "homepage": "https://github.com/lingtongliao/re-skills"
+}
