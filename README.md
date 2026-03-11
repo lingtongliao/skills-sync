@@ -1,6 +1,6 @@
-# skills-update-hub
+# skill-sync
 
-`skills-update-hub` is a Claude Code plugin that provides a reusable skill to:
+`skill-sync` is a Claude Code plugin that provides a reusable skill to:
 - check whether local skills are latest,
 - summarize differences with latest GitHub version,
 - update local skills safely with backup and rollback.
@@ -34,7 +34,7 @@ Check all skills:
 
 ```bash
 python "skills/skills-update-manager/scripts/manage_skills.py" check \
-  --repo lingtongliao/re-skills \
+  --repo lingtongliao/skill-sync \
   --ref main
 ```
 
@@ -42,7 +42,7 @@ Show diff of a specific skill:
 
 ```bash
 python "skills/skills-update-manager/scripts/manage_skills.py" diff \
-  --repo lingtongliao/re-skills \
+  --repo lingtongliao/skill-sync \
   --ref main \
   --skill skills-update-manager \
   --show-patch
@@ -52,7 +52,7 @@ Apply update:
 
 ```bash
 python "skills/skills-update-manager/scripts/manage_skills.py" update \
-  --repo lingtongliao/re-skills \
+  --repo lingtongliao/skill-sync \
   --ref main \
   --apply
 ```
@@ -62,7 +62,7 @@ python "skills/skills-update-manager/scripts/manage_skills.py" update \
 Generate manifest:
 
 ```bash
-python scripts/generate_manifest.py --repo lingtongliao/re-skills --ref main
+python scripts/generate_manifest.py --repo lingtongliao/skill-sync --ref main
 ```
 
 Run tests:

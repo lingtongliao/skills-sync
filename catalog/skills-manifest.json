@@ -1,11 +1,11 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-03-11T07:55:49Z",
+  "generated_at": "2026-03-11T08:14:49Z",
   "plugin": {
-    "name": "skills-update-hub",
+    "name": "skill-sync",
     "version": "0.1.0"
   },
-  "repo": "lingtongliao/re-skills",
+  "repo": "lingtongliao/skill-sync",
   "ref": "main",
   "skills": [
     {
@@ -17,8 +17,8 @@
       "files": [
         {
           "path": "skills/skills-update-manager/examples/sample-manifest.json",
-          "sha256": "e069676e8c27af4014fcd6f1792fb58be22624f554b91229e886b0b5ee2b2969",
-          "size": 613
+          "sha256": "d376a871fdbd48acdb67484bdbb1955455d0d8a72bfd9bd9f497fdc686c43737",
+          "size": 606
         },
         {
           "path": "skills/skills-update-manager/references/manifest-spec.md",
@@ -37,8 +37,8 @@
         },
         {
           "path": "skills/skills-update-manager/SKILL.md",
-          "sha256": "c1cc083dd4630ddabc898693c3ba669bb7a7afccc5f42d58de1ec5dba1d88bc4",
-          "size": 5374
+          "sha256": "8b411cf1f95ae45abe173aa174203e031a086a7a708ebaf15dfb8fef93a4bf56",
+          "size": 5382
         }
       ]
     }

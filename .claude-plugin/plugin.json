@@ -1,5 +1,5 @@
 {
-  "name": "skills-update-hub",
+  "name": "skill-sync",
   "version": "0.1.0",
   "description": "Check local Claude skills against GitHub manifest, summarize diffs, and update safely.",
   "author": {
@@ -13,6 +13,6 @@
     "github",
     "claude-code"
   ],
-  "repository": "https://github.com/lingtongliao/re-skills",
-  "homepage": "https://github.com/lingtongliao/re-skills"
+  "repository": "https://github.com/lingtongliao/skill-sync",
+  "homepage": "https://github.com/lingtongliao/skill-sync"
 }

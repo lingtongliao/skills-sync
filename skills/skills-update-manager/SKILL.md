@@ -41,7 +41,7 @@ Run check against manifest.
 
 ```bash
 python "${CLAUDE_PLUGIN_ROOT}/skills/skills-update-manager/scripts/manage_skills.py" check \
-  --repo lingtongliao/re-skills \
+  --repo lingtongliao/skill-sync \
   --ref main
 ```
 
@@ -56,7 +56,7 @@ Use JSON output when downstream automation is needed:
 
 ```bash
 python "${CLAUDE_PLUGIN_ROOT}/skills/skills-update-manager/scripts/manage_skills.py" check \
-  --repo lingtongliao/re-skills \
+  --repo lingtongliao/skill-sync \
   --ref main \
   --json
 ```
@@ -67,7 +67,7 @@ Run diff for all skills or a specific skill.
 
 ```bash
 python "${CLAUDE_PLUGIN_ROOT}/skills/skills-update-manager/scripts/manage_skills.py" diff \
-  --repo lingtongliao/re-skills \
+  --repo lingtongliao/skill-sync \
   --ref main
 ```
 
@@ -75,7 +75,7 @@ Limit scope to one skill:
 
 ```bash
 python "${CLAUDE_PLUGIN_ROOT}/skills/skills-update-manager/scripts/manage_skills.py" diff \
-  --repo lingtongliao/re-skills \
+  --repo lingtongliao/skill-sync \
   --ref main \
   --skill skills-update-manager
 ```
@@ -84,7 +84,7 @@ Show patch preview for `SKILL.md` to quickly inspect user-visible behavior chang
 
 ```bash
 python "${CLAUDE_PLUGIN_ROOT}/skills/skills-update-manager/scripts/manage_skills.py" diff \
-  --repo lingtongliao/re-skills \
+  --repo lingtongliao/skill-sync \
   --ref main \
   --skill skills-update-manager \
   --show-patch
@@ -96,7 +96,7 @@ Preview update actions without touching local files.
 
 ```bash
 python "${CLAUDE_PLUGIN_ROOT}/skills/skills-update-manager/scripts/manage_skills.py" update \
-  --repo lingtongliao/re-skills \
+  --repo lingtongliao/skill-sync \
   --ref main
 ```
 
@@ -108,7 +108,7 @@ Apply update with backup.
 
 ```bash
 python "${CLAUDE_PLUGIN_ROOT}/skills/skills-update-manager/scripts/manage_skills.py" update \
-  --repo lingtongliao/re-skills \
+  --repo lingtongliao/skill-sync \
   --ref main \
   --apply
 ```
@@ -172,7 +172,7 @@ Only use fast mode for personal experimentation or internal testing.
 Generate manifest before publishing:
 
 ```bash
-python scripts/generate_manifest.py --repo lingtongliao/re-skills --ref main
+python scripts/generate_manifest.py --repo lingtongliao/skill-sync --ref main
 ```
 
 For complete release steps, follow `references/release-playbook.md`.
